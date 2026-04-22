@@ -1,6 +1,6 @@
 # Vue 3 Starter Template
 
-![CI Quality](https://github.com/pharmacist-sabot/vue-starter/actions/workflows/ci.yml/badge.svg)
+![CI Quality](https://github.com/suradet-ps/vue-starter/actions/workflows/ci.yml/badge.svg)
 [![Vue](https://img.shields.io/badge/Vue-3.5+-4FC08D?logo=vue.js)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-8.0+-646CFF?logo=vite)](https://vitejs.dev/)
@@ -80,7 +80,7 @@ Ensure your environment meets the following requirements:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/pharmacist-sabot/vue-starter.git my-app
+git clone https://github.com/suradet-ps/vue-starter.git my-app
 cd my-app
 ```
 
