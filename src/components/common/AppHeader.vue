@@ -31,7 +31,7 @@ import { RouterLink } from 'vue-router';
           Home
         </RouterLink>
         <a
-          href="https://github.com/pharmacist-sabot/vue-starter"
+          href="https://github.com/suradet-ps/vue-starter"
           target="_blank"
           class="hover:text-gray-900 transition-colors"
           aria-label="GitHub"
