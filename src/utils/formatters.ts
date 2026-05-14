@@ -27,6 +27,9 @@ export function formatCurrency(
  * @param date - The date to format
  * @param locale - The locale string (default: 'en-US')
  * @param options - Intl.DateTimeFormatOptions
+ * @param options.year - The year format (default: 'numeric')
+ * @param options.month - The month format (default: 'long')
+ * @param options.day - The day format (default: 'numeric')
  */
 export function formatDate(
   date: Date | string | number,
