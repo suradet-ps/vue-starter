@@ -48,7 +48,7 @@
   },
   "pnpm": {
     "overrides": {
-      "eslint-plugin-perfectionist": "3.x"
+      "eslint-plugin-perfectionist": "5.x"
     }
   },
   "lint-staged": {
