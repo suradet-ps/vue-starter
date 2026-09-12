@@ -1,6 +1,7 @@
-import { formatCompactNumber, formatCurrency, formatDate } from '@/utils/formatters';
 // tests/utils/formatters.spec.ts
 import { describe, expect, it } from 'vitest';
+
+import { formatCompactNumber, formatCurrency, formatDate } from '@/utils/formatters';
 
 describe('formatters Utils', () => {
   describe('formatCurrency', () => {

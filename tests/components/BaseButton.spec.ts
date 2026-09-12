@@ -1,6 +1,7 @@
-import BaseButton from '@/components/common/BaseButton.vue';
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
+
+import BaseButton from '@/components/common/BaseButton.vue';
 
 describe('baseButton Component', () => {
   it('renders slot content correctly', () => {

@@ -78,20 +78,20 @@ http.interceptors.response.use(
 );
 
 export const api = {
-  get: <T>(url: string, config?: AxiosRequestConfig) =>
-    http.get<T, T>(url, config),
+  get: <T>(url: string, config?: AxiosRequestConfig): Promise<T> =>
+    http.get<T, T>(url, config) as any,
 
-  post: <T>(url: string, data?: any, config?: AxiosRequestConfig) =>
-    http.post<T, T>(url, data, config),
+  post: <T>(url: string, data?: any, config?: AxiosRequestConfig): Promise<T> =>
+    http.post<T, T>(url, data, config) as any,
 
-  put: <T>(url: string, data?: any, config?: AxiosRequestConfig) =>
-    http.put<T, T>(url, data, config),
+  put: <T>(url: string, data?: any, config?: AxiosRequestConfig): Promise<T> =>
+    http.put<T, T>(url, data, config) as any,
 
-  delete: <T>(url: string, config?: AxiosRequestConfig) =>
-    http.delete<T, T>(url, config),
+  delete: <T>(url: string, config?: AxiosRequestConfig): Promise<T> =>
+    http.delete<T, T>(url, config) as any,
 
-  patch: <T>(url: string, data?: any, config?: AxiosRequestConfig) =>
-    http.patch<T, T>(url, data, config),
+  patch: <T>(url: string, data?: any, config?: AxiosRequestConfig): Promise<T> =>
+    http.patch<T, T>(url, data, config) as any,
 };
 
 export default api;

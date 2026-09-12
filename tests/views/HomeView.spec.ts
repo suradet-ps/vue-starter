@@ -1,9 +1,10 @@
-import { useCounterStore } from '@/stores/counter';
-import HomeView from '@/views/HomeView.vue';
 // tests/views/HomeView.spec.ts
 import { mount } from '@vue/test-utils';
 import { createPinia, setActivePinia } from 'pinia';
 import { beforeEach, describe, expect, it } from 'vitest';
+
+import { useCounterStore } from '@/stores/counter';
+import HomeView from '@/views/HomeView.vue';
 
 describe('homeView', () => {
   beforeEach(() => {

@@ -6,7 +6,7 @@
 ██║   ██║██║   ██║█████╗  ███████╗   ██║   ███████║██████╔╝   ██║   █████╗  ██████╔╝
 ╚██╗ ██╔╝██║   ██║██╔══╝  ╚════██║   ██║   ██╔══██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗
  ╚████╔╝ ╚██████╔╝███████╗██████╔╝   ██║   ██║  ██║██║  ██║   ██║   ███████╗██║  ██║
-  ╚═══╝ ╚═════╝ ╚══════╝╚═════╝   ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝╚══════╝╚═╝  ╚═╝
+  ╚═══╝   ╚═════╝ ╚══════╝╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
 ```
 
 ---
@@ -22,9 +22,9 @@ runs before the code ever commits. Clone it, rename it, and build the
 feature that matters instead of the toolchain.
 
 | Type-safe ▣ | Quality gates ▣ | Pre-wired ▣ | Zero-config ▣ |
-|---|---|---|---|
+| ----------- | --------------- | ----------- | ------------- |
 
-*The scaffold - stack, gates, structure - is sealed.*
+_The scaffold - stack, gates, structure - is sealed._
 
 > Built with Vue 3.5 + TypeScript 5.9 + Vite, linted by
 > `@antfu/eslint-config`, gated by Husky and Commitlint - the boring

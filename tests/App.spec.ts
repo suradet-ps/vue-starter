@@ -1,10 +1,11 @@
-import App from '@/App.vue';
-import BlankLayout from '@/layouts/BlankLayout.vue';
-import DefaultLayout from '@/layouts/DefaultLayout.vue';
 // tests/App.spec.ts
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
 import { createRouter, createWebHistory } from 'vue-router';
+
+import App from '@/App.vue';
+import BlankLayout from '@/layouts/BlankLayout.vue';
+import DefaultLayout from '@/layouts/DefaultLayout.vue';
 
 // Mock Component for routing
 const DummyComponent = { template: '<div>Page</div>' };
