@@ -1,6 +1,6 @@
 <!-- src/components/common/AppHeader.vue -->
 <script setup lang="ts">
-import { Github, Zap } from 'lucide-vue-next';
+import { ExternalLink, Zap } from '@lucide/vue';
 import { RouterLink } from 'vue-router';
 </script>
 
@@ -36,7 +36,7 @@ import { RouterLink } from 'vue-router';
           class="hover:text-gray-900 transition-colors"
           aria-label="GitHub"
         >
-          <Github class="w-5 h-5" :stroke-width="1.5" />
+          <ExternalLink class="w-5 h-5" :stroke-width="1.5" />
         </a>
       </nav>
     </div>
