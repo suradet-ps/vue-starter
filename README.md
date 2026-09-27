@@ -1,13 +1,13 @@
 # Vue 3 Starter Template
 
-```
-██╗   ██╗██╗   ██╗███████╗ ██████╗████████╗ █████╗ ██████╗ ████████╗███████╗██████╗
-██║   ██║██║   ██║██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
-██║   ██║██║   ██║█████╗  ███████╗   ██║   ███████║██████╔╝   ██║   █████╗  ██████╔╝
-╚██╗ ██╔╝██║   ██║██╔══╝  ╚════██║   ██║   ██╔══██║██╔══██╗   ██║   ██╔══╝  ██╔══██╗
- ╚████╔╝ ╚██████╔╝███████╗██████╔╝   ██║   ██║  ██║██║  ██║   ██║   ███████╗██║  ██║
-  ╚═══╝   ╚═════╝ ╚══════╝╚═════╝    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝
-```
+[![CI](https://github.com/suradet-ps/vue-starter/actions/workflows/ci.yml/badge.svg)](https://github.com/suradet-ps/vue-starter/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Vue v3](https://img.shields.io/badge/Vue-v3-4FC08D.svg?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
+[![TypeScript v5](https://img.shields.io/badge/TypeScript-v5-3178C6.svg?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite v8](https://img.shields.io/badge/Vite-v8-646CFF.svg?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Tailwind v4](https://img.shields.io/badge/Tailwind-v4-06B6D4.svg?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![pnpm](https://img.shields.io/badge/pnpm-12-F69220.svg?logo=pnpm&logoColor=white)](https://pnpm.io/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/suradet-ps/vue-starter/issues)
 
 ---
 
